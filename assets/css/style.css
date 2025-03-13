@@ -47,7 +47,7 @@ article h1 {
   margin-bottom: 1rem;
 }
 article ul {
-    margin left: 1rem;
+  margin left: 1rem;
   list-style: disc;
 }
 
@@ -58,6 +58,7 @@ caption {
 }
 table {
   margin: 1rem;
+  border-bottom: 1px solid #3568c9;
 }
 thead tr {
   background-color: #3568c9;
@@ -66,10 +67,6 @@ thead tr {
 th td {
   text-align: center;
 }
-tbody tr {
-  border-bottom: 1px solid blue;
-}
-
 /* FORM */
 iframe {
     margin-bottom: 1rem;
@@ -84,6 +81,12 @@ aside h2 {
 }
 .correlati {
   background-color: #cfc8c9;
+  margin-bottom: 0.5rem;
+}
+.code {
+    background-color: #d1cfcf;
+    border-radius: 25%;
+    margin-bottom: 0.5rem;
 }
 
 /* FOOTER */
