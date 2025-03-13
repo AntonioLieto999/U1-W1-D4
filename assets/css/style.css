@@ -30,20 +30,25 @@ main {
   border: 1px solid black;
   margin-bottom: 1rem;
 }
+main article strong {
+  color: purple;
+}
 main section {
   background-color: #cfc8c9;
   padding: 20;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
-ul {
-  list-style: disc;
-}
+
 article p {
   margin-bottom: 1rem;
 }
 article h1 {
   font-size: xx-large;
   margin-bottom: 1rem;
+}
+article ul {
+    margin left: 1rem;
+  list-style: disc;
 }
 
 /* TABELLE */
@@ -52,7 +57,7 @@ caption {
   font-style: italic;
 }
 table {
-  margin: 1rem 0 1rem 0;
+  margin: 1rem;
 }
 thead tr {
   background-color: #3568c9;
@@ -66,6 +71,11 @@ tbody tr {
 }
 
 /* FORM */
+iframe {
+    margin-bottom: 1rem;
+    max-height: 200px;
+    border-radius: 10%;
+}
 
 /* ELEMENTI NELL' ASIDE */
 aside h2 {
