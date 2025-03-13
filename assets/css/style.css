@@ -1,37 +1,43 @@
 /* IMPOSTAZIONI GENERALI */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  box-sizing: border-box;
-}
+
 body {
   font-family: "Poppins", sans-serif;
-  max-width: 400px;
+  width: 100%;
   background-image: url(../img/sfondo.png);
-  margin: 1.2rem;
   text-align: center;
-}
-body img {
-}
+  padding: 1rem;
+  line-height: 1.4rem;
 /* HEADER */
 header {
-  width: 360px;
   display: inline-block;
   background-color: #0088aa;
-  padding: 20px;
+  padding: 2rem;
   margin-bottom: 1rem;
+  color: white;
+}
+header p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+header a {
+  color: inherit;
+  text-decoration: none;
 }
 /* MAIN */
 main {
-  width: 360px;
+  width: 100%;
   display: inline-block;
   background-color: white;
   text-align: center;
-  padding: 20px;
+  padding: 1rem;
   border: 1px solid black;
   margin-bottom: 1rem;
 }
 main article strong {
   color: purple;
+  font-weight: bold;
 }
 main section {
   background-color: #cfc8c9;
@@ -47,8 +53,16 @@ article h1 {
   margin-bottom: 1rem;
 }
 article ul {
-  margin left: 1rem;
+  padding-left: 20px;
   list-style: disc;
+}
+ul,
+ol {
+  margin-bottom: 1rem;
+}
+.subtitle {
+  color: grey;
+  margin-block: 1.5rem;
 }
 
 /* TABELLE */
@@ -69,9 +83,9 @@ th td {
 }
 /* FORM */
 iframe {
-    margin-bottom: 1rem;
-    max-height: 200px;
-    border-radius: 10%;
+  margin-bottom: 1rem;
+  max-height: 200px;
+  border-radius: 10%;
 }
 
 /* ELEMENTI NELL' ASIDE */
@@ -84,9 +98,11 @@ aside h2 {
   margin-bottom: 0.5rem;
 }
 .code {
-    background-color: #d1cfcf;
-    border-radius: 25%;
-    margin-bottom: 0.5rem;
+  background-color: #d1cfcf;
+  border-radius: 7px;
+  margin-bottom: 0.5rem;
+  padding-block: 0.25rem;
+  border: 1px solid black;
 }
 
 /* FOOTER */
