@@ -3,18 +3,25 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  width: 100%;
   background-image: url(../img/sfondo.png);
   text-align: center;
   padding: 1rem;
   line-height: 1.4rem;
+  background-position: center center;
+}
+* {
+  box-sizing: border-box;
+}
 /* HEADER */
 header {
+  background: rgb(0, 160, 198);
   display: inline-block;
-  background-color: #0088aa;
+  background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
   padding: 2rem;
   margin-bottom: 1rem;
   color: white;
+  font-weight: bold;
+  box-shadow: 0 3px 3px #444;
 }
 header p {
   margin-bottom: 1rem;
@@ -28,11 +35,9 @@ header a {
 /* MAIN */
 main {
   width: 100%;
-  display: inline-block;
   background-color: white;
   text-align: center;
   padding: 1rem;
-  border: 1px solid black;
   margin-bottom: 1rem;
 }
 main article strong {
@@ -44,27 +49,40 @@ main section {
   padding: 20;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
-
-article p {
-  margin-bottom: 1rem;
+h1 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.7em;
 }
-article h1 {
-  font-size: xx-large;
-  margin-bottom: 1rem;
+p {
+  margin-bottom: 1.2em;
 }
-article ul {
-  padding-left: 20px;
-  list-style: disc;
+h1 + p {
+  color: #a0a0a0;
 }
 ul,
 ol {
-  margin-bottom: 1rem;
+  margin-left: 2em;
 }
-.subtitle {
-  color: grey;
-  margin-block: 1.5rem;
+strong {
+  color: #a02571;
+  font-weight: bold;
+a {
+  color: #00a0c6;
+  font-weight: bold;
 }
-
+code {
+  background-color: #e3e3e3;
+  border: 1px solid #969494;
+  border-radius: 5px;
+}
+iframe {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+  border-radius: 20px;
+}
 /* TABELLE */
 caption {
   font-weight: bold;
@@ -81,12 +99,13 @@ thead tr {
 th td {
   text-align: center;
 }
-/* FORM */
-iframe {
-  margin-bottom: 1rem;
-  max-height: 200px;
-  border-radius: 10%;
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
 }
+  tbody tr:last-of-type {
+    border-bottom: 2px solid #3f6bca;
+}
+/* FORM */
 
 /* ELEMENTI NELL' ASIDE */
 aside h2 {
